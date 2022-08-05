@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100% !important;
+}
+body {
+  /* background-color: white;
+  background-image: url("../images/f8_bg_auth_1366.cb1a38f30212c78aa891.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left top; */
+  /* padding-top: 50px; */
+}
+.back {
+  background-color: white;
+  background-image: url("../images/f8_bg_auth_1366.cb1a38f30212c78aa891.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding: 50px 0px;
+  min-height: 739px;
+}
+.login {
+  background-color: white;
+  margin: 0 auto !important;
+  width: 40%;
+  /* margin-top: 50px !important; */
+  border-radius: 10px;
+}
+.login_container {
+  /* margin-top: 50px !important; */
+
+  min-height: 500px;
+  padding: 40px 100px;
+}
+.login__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login__header_img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.login__header_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.form-group label {
+  font-size: 15px;
+  font-weight: 500;
+}
+.login_btn {
+  background-color: #f05123;
+  border: none;
+  margin-top: 10px;
+  padding: 8px 20px;
+  transition: all 0.2s linear;
+}
+.login_btn:hover {
+  background-color: #c7360e;
+  box-shadow: 0px 0px 5px #f05123;
+}
+.login__footer {
+  text-align: center;
+  font-size: 15px;
+}
+.login__footer a {
+  text-decoration: none;
+  color: #f05123;
+  font-weight: 500;
+}
+.register_btn {
+  width: 100%;
+  font-size: 17px !important;
+  margin-top: 5px;
+  padding: 10px 0px;
+}
+
+.p-I {
+  padding: 20px;
+}

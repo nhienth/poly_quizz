@@ -1,0 +1,39 @@
+{
+  "student": [
+    {
+      "username": "teonv",
+      "fullname": "Tao",
+      "password": "iloveyou",
+      "email": "teonv@fpt.edu.vn",
+      "id": 1
+    },
+    {
+      "username": "nhienth",
+      "fullname": "Tran Hoang Nhien",
+      "password": "123",
+      "email": "nhienth@gmail.com",
+      "id": 2
+    },
+    {
+      "username": "nhienthh",
+      "fullname": "tran",
+      "password": "123",
+      "email": "nhienthpd04905@fpt.edu.vn",
+      "id": 3
+    }
+  ],
+  "result": [
+    {
+      "subject": "Lập trình Android cơ bản",
+      "studentId": 2,
+      "score": 0,
+      "id": 4
+    },
+    {
+      "subject": "Quản lý dự án với Agile",
+      "studentId": 2,
+      "score": 2,
+      "id": 5
+    }
+  ]
+}

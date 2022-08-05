@@ -1,0 +1,92 @@
+<div class="container-fuild back">
+  <div class="row login">
+    <!-- <div class="login_background"></div> -->
+    <div class="login_container">
+      <div class="login__header">
+        <div class="login__header_img">
+          <a href="../../index.html"
+            ><img src="../../images/FPT_Polytechnic.png" alt=""
+          /></a>
+        </div>
+        <div class="login__header_title">Đăng ký tài khoản FPT Poly</div>
+      </div>
+      <div class="login__form mt-4">
+        <form name="formRe">
+          <div class="form-group">
+            <label for="name">Họ và tên</label>
+            <input
+              ng-model="fullname"
+              type="text"
+              class="form-control border-secondary rounded-pill p-I"
+              id="name"
+              name="fullname"
+              placeholder="Họ và tên của bạn"
+              required
+            />
+          </div>
+          <p class="text-danger" ng-show="formRe.fullname.$invalid">
+            Vui lòng nhập họ tên
+          </p>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Tên đăng nhập</label>
+            <input
+              ng-model="username"
+              type="text"
+              name="username"
+              class="form-control border-secondary rounded-pill p-I"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Tên đăng nhập"
+              required
+            />
+          </div>
+          <p class="text-danger" ng-show="formRe.username.$invalid">
+            Vui lòng nhập tên đăng nhập
+          </p>
+          <div class="form-group">
+            <label for="exampleInputEmail2">Email</label>
+            <input
+              ng-model="email"
+              type="email"
+              class="form-control border-secondary rounded-pill p-I"
+              id="exampleInputEmail2"
+              aria-describedby="emailHelp"
+              placeholder="Email của bạn"
+              name="email"
+              required
+            />
+          </div>
+          <p class="text-danger" ng-show="formRe.email.$invalid">
+            Vui lòng nhập email
+          </p>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Mật khẩu</label>
+            <input
+              ng-model="password"
+              type="password"
+              name="password"
+              class="form-control border-secondary rounded-pill p-I"
+              id="exampleInputPassword1"
+              placeholder="********"
+              required
+            />
+          </div>
+          <p class="text-danger" ng-show="formRe.password.$invalid">
+            Vui lòng nhập mật khẩu
+          </p>
+          <button
+            type="submit"
+            ng-click="postData()"
+            class="btn btn-primary register_btn"
+          >
+            Đăng ký
+          </button>
+        </form>
+        <div class="login__footer mt-3">
+          Bạn đã có tài khoản ? <a href="#!login">Đăng nhập</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Optional JavaScript -->

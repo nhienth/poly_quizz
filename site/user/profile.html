@@ -1,0 +1,53 @@
+<div class="container-fluid">
+  <div class="row mt-3">
+    <div class="col-md-4">
+      <div class="row">
+        <img
+          class="w-50"
+          style="display: block; margin: 0 auto"
+          src="./images/avatardefault_92824.png"
+        />
+      </div>
+      <div class="row"></div>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-12"><h3>{{user.fullname}}</h3></div>
+        <div class="col-md-12 text-primary h6">Web developer and designer</div>
+      </div>
+      <div class="row">
+        <table class="table table-light">
+          <thead class="thead-light">
+            <tr>
+              <th># Thông tin</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>User name : {{user.username}}</td>
+            </tr>
+            <tr>
+              <td>Full name : {{user.fullname}}</td>
+            </tr>
+            <tr>
+              <td>Email : {{user.email}}</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr class="thead-light">
+              <th># Lịch sử thi</th>
+            </tr>
+            <tr>
+              <th>Môn thi</th>
+              <th>Điểm</th>
+            </tr>
+            <tr ng-repeat="result in results">
+              <td>{{result.subject}}</td>
+              <td>{{result.score}}</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
